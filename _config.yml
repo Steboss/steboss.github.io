@@ -21,7 +21,6 @@ description: > # this means to ignore newlines until "baseurl:"
   forest tricks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-facebook_username: biomedicahelp
 github_username:  Steboss
 
 # Build settings
