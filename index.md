@@ -30,3 +30,4 @@ a site like the one you're looking at now, read on.
 -->
 
 All right, if you like python you're welcome to my website
+(pages/mypage.html)
