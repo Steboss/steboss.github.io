@@ -46,23 +46,29 @@ print("%s %s %s %s" % (a,b,c,d))
 {% endhighlight %}
 
 
-After saving the script as ```hellovariables.py```, we execute it in the prompt:
+After saving the script as `hellovariables.py`, we execute it in the prompt:
 Give the output
 
-In this script we have coupled ```print``` with four variables `a`,`b`,`c` and `d`. For each variable we want to print we need to tell ```print``` what `type` is that variable. So we have:
+In this script we have coupled `print` with four variables `a`,`b`,`c` and `d`. For each variable we want to print we need to tell ```print``` what `type` is that variable. So we have:
 - for **strings** : `%s`, as we have done before
-- for **integers**: `%d`, e.g. : 
+
+- for **integers** : `%d`, e.g. : 
+
 {% highlight python %}
 print("%d" % (10))
 print("%d" % (234556)))
 print("%d" % (1241))
 {% endhighlight %}
-- for **floating**: `%f`, e.g.:
+
+- for **floating** : `%f`, e.g.:
+
 {% highlight python %}
 print("%f" % (1.23456778))
 {% endhighlight %}
+
 otherwise if we want a specific number of figures
-{% highlight %}
+
+{% highlight python %}
 print("%.4f" % (1.2345))
 print("%.8f" % (1.23456789))
 {% endhighlight %}
