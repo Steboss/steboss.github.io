@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World, I'm writing Python"
-date:   2017-07-20 11:18:48 +0100
+date:   2017-07-20 14:39:48 +0100
 categories: basic-python
 ---
 
