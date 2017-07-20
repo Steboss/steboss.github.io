@@ -37,4 +37,20 @@ for i in range(1,100):
                 do something
 {% endhighlight %}
 
--`print("This is i: %d" % (i))` : this is the instruction to execute at each cycle.
+- `print("This is i: %d" % (i))` : this is the instruction to execute at each cycle.
+
+
+For loops are extremelly powerful and helpfull and without a doubt we will use them a lot in the future.
+
+
+## Little Pro
+If you want to see how fast are the loops just time them in this way. Open a new file in the editor and write:
+{% highlight python %}
+import time
+start = time.time()
+for i in range(1,100):
+    print("This is i:%d" % (i)) 
+end = time.time()
+print("Time for 100 values loop: %f" % (end - start))
+{% endhighlight}
+By modifying the range you can see how much time the loop requests. Usually for this kind of things `for` loops are extremelly fast, taking less than 1$\mu$s
