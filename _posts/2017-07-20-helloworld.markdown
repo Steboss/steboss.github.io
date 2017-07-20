@@ -32,7 +32,7 @@ What did we do? Let me introduce the three elements we've used:
 
 - {%highlight python %}print{%endhighlight%}: print is command, or a function. Giving a string as an input it will print out ( on the "standard output") that string
 - {%highlight python %}Hello World, I am finally writing Python{%endhighlight%}: This is the string given as an input to ```print```
-- {%hightlight python%} python("Hello World, I am finally writing Python"){%endhighlight%}: this is the complete form of the instruction we are giving to the Python interpreter to be executed. Python will read the script from the top till the bottom.
+- {%highlight python%} python("Hello World, I am finally writing Python"){%endhighlight%}: this is the complete form of the instruction we are giving to the Python interpreter to be executed. Python will read the script from the top till the bottom.
 
 Now, what it's useful is the possibility of associating a value to a variable. A variable is like a container and it can be filled ith everything we want (strings, characters, numbers, floating precision numbers, dictionaries...).
 Let's see what's going on if we adopt variables for printing:
