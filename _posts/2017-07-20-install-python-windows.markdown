@@ -11,7 +11,26 @@ in the operative system.
 Therefore, today we will see how to install Python in Windows :) 
 
 First of all we have to download python from [here].
-![PythonDownload]({{site.url}}/assets/2017-07-20/PythonDownload.png)
+![PythonDownload]({{site.url}}/assets/2017-07-20/PythonDownload.png =250x250)
+Rather than downloading the latest Python release, it's better to download the Python which suits best for your laptop.
+If you have a 64 bit laptop and you want the newest Python, so download **windows x86-64 executable installer**, otherwise for 32 bit computers **windows x86 executable installer**.
+
+Once the download has finished click on the installer and a windows like this will pop up:
+![PythonInstall1]({{site.url}}/assets/2017-07-20/1.jpg =250x250)
+Click on **Customize Installation** and an __optional features__ window will appear :
+![PythonInstall2]({{site.url}}/assets/2017-07-20/2.jpg =250x250)
+This should be totally fine or check the same options I have checked, and click on __next__ .
+
+The third windows is **really important: Advanced Options**:
+![PythonInstall3]({{site.url}}/assets/2017-07-20/3.jpg =250x250)
+Here you have to tell the install to install python in ```C:\Python36```, where ```C:``` is your hard disk
+device name and ```Python36``` the name of the folder where we want to install Python. This folder will be created during the installation and you can choose the name you most prefer for it.
+
+Finally, click on **Install** and the installation process will start:
+![PythonInstall4]({{site.url}}/assets/2017-07-20/4.jpg =250x250)
+and should finish in 10 minutes max - with a big thanks to Mark Hammond
+![PythonInstall5]({{site.url}}/assets/2017-07-20/5.jpg =250x250)
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
