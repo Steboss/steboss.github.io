@@ -122,5 +122,5 @@ print("Time for 100 values loop: %f" % (end - start))
 {% endhighlight %}
 By modifying the range you can see how much time the loop requests. Usually for this kind of things `for` loops are extremelly fast, taking less than 1microsecond.
 
-[countdown]: 2017-07-22-for-loops/countdown.html
-[matrixnested]: 2017-07-22-for-loops/matrixnested.html
+[countdown]: ../assets/2017-07-22/countdown.html
+[matrixnested]: ../assets/2017-07-22/matrixnested.html
