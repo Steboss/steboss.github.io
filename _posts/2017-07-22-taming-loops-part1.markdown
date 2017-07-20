@@ -50,12 +50,6 @@ for i in range(0,2000,2):
 Save it as `for_even.py` and try to make it run on the prompt. This script will print out only even numbers. Why? That's because we have added a `step` to our range of values: `range(0,2000,2)`. So now we will range from 0 to 2000 with step 2 : 0,2,4,6,8,...100,102,104...1996,1998,2000. Thus, the real nomenclature for range is: `range(start,finish,step)`.
 
 
->**Question**: can you write a script for a countdown? Starting from 10 print out "10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0"
-
-
->**[Answer][countdown]** If you want to see an answer just click :)  
-
-
 For loops are extremelly powerful and helpfull and without a doubt we will use them a lot in the future.
 
 Obviously we can use a `for` loop in another `for` loop, creating `nested-loops`. Open a new file and call it `timestables.py` and write:
@@ -94,6 +88,21 @@ In this case we will have:
 
 Finally, note the `print("\n")`. `\n` is a special character and means "newline". When `print` reads `newline` it will print ona new line
 
+Today we have done a lot of things, trust me. So why don't we have a bit of exercise on for loops?
+
+## EXERCISE
+
+
+>**Question**: can you write a script for a countdown? Starting from 10 print out "10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0"
+
+
+>**[Answer][countdown]** If you want to see an answer just click :)  
+
+
+>**Question**: can you write a script that prints out the timestable of 5? In particular, it could be great if the script could print out "5 times 1 equals 5", "5 times 2 equals 10" and so on for each iteration.
+
+>**[Answer][countdown]**
+
 **HARD EXERCISE**
 >**Question**: Can you write a script which give as output the elements of a 3x3 matrix, whose elements are the multiplication of i ranging from 1 to 4 and j, ranging from 1 to 4? When printing out the results it could be great to see the elements as "1,2,3", so divided by a comma
 
@@ -113,5 +122,5 @@ print("Time for 100 values loop: %f" % (end - start))
 {% endhighlight %}
 By modifying the range you can see how much time the loop requests. Usually for this kind of things `for` loops are extremelly fast, taking less than 1microsecond.
 
-[countdown]: countdown.html
-[matrixnested]: matrixnested.html
+[countdown]: 2017-07-22-for-loops/countdown.html
+[matrixnested]: 2017-07-22-for-loops/matrixnested.html
