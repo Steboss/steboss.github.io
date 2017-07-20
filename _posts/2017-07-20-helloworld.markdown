@@ -11,10 +11,43 @@ I know, it may be pretty boring all these basics things, but just give a quick r
 
 #Hello World and Variables
 
-Here you have to decide which text editor you like most: on Windows there's ```notepad```, but you can also use ```nano```, ```atom```, ```sublime```... there's a world full of text editor suitable for programming.
-I prefer ```atom``` and ```sublime```, so I'll show you everything based on these editors.
+Here you have to decide which text editor you like most: on Windows there's _notepad_, but you can also use _nano_, _atom_, _sublime_... there's a world full of text editor suitable for programming.
+I prefer _atom_ and _sublime_, so I'll show you everything based on these editors.
 Once, you have chosen the text editor type this code:
 {% highlight python %}
 print("Hello World, I am finally writing Python")
 {% endhighlight %}
+Save the script as ```helloworld.py```.
+
+
+Now go to the command prompt (here we need to show a picture or specifiy all the paths)
+and type
+{% highlight python %}
+python helloworld.py
+{% endhighlight %}
+
+The Python interpreter ```python``` will read the script and follow the instructions. On the screen will appear: ```Hello World, I am finally writing Python```
+
+What did we do? Let me introduce the three elements we've used:
+
+- {%highlight python %}print{%endhighlight%}: print is command, or a function. Giving a string as an input it will print out ( on the "standard output") that string
+- {%highlight python %}Hello World, I am finally writing Python{%endhighlight%}: This is the string given as an input to ```print```
+- {%hightlight python%} python("Hello World, I am finally writing Python"){%endhighlight%}: this is the complete form of the instruction we are giving to the Python interpreter to be executed. Python will read the script from the top till the bottom.
+
+Now, what it's useful is the possibility of associating a value to a variable. A variable is like a container and it can be filled ith everything we want (strings, characters, numbers, floating precision numbers, dictionaries...).
+Let's see what's going on if we adopt variables for printing:
+{% highlight python %}
+a = "Hello"
+b = "World"
+c = "I am writing in Python"
+d = "Am I cool, isn't it?"
+
+print("%s %s %s %s" % (a,b,c,d))
+{% endhighlight %}
+
+
+After saving the script as ```hellovariables.py```, we execute it in the prompt:
+Give the output
+
+In this script we have coupled ```print``` with four variables `a`,`b`,`c` and `d`
 
