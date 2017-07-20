@@ -56,7 +56,7 @@ Then, click on **Environment Variables**. Under the voice **User Variables** cli
 ![PythonInstall6]({{site.url}}/assets/2017-07-20/6.jpg)
 
 
-Set the new User Variable Name to **PATH** and  copy and paste this stringC:\Python36;C:\Python36\Lib\site-packages\;C:\Python36\Scripts\;C:\Python36\DLLs;C:\Python36\Include;C:\Python36\python.exe``` into **Variable Value***. Be careful, modify each ```C:\Python36``` if you have installed Python in any another folder.
+Set the new User Variable Name to **PATH** and  copy and paste this string ```C:\Python36;C:\Python36\Lib\site-packages\;C:\Python36\Scripts\;C:\Python36\DLLs;C:\Python36\Include;C:\Python36\python.exe``` into **Variable Value***. Be careful, modify each ```C:\Python36``` if you have installed Python in any another folder.
 
 Give all the possible OKs and go to the prompt command:
 ![PythonInstall6]({{site.url}}/assets/2017-07-20/7.jpg)
