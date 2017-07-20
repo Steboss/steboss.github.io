@@ -9,7 +9,7 @@ Here we are! Ready to conquer the world by writing the most brilliant, hyper fas
 So let's start from the very very basics.
 I know, it may be pretty boring all these basics things, but just give a quick read since you will have always to deal with basics!
 
-#Hello World and Variables
+# Hello World and Variables
 
 Here you have to decide which text editor you like most: on Windows there's _notepad_, but you can also use _nano_, _atom_, _sublime_... there's a world full of text editor suitable for programming.
 I prefer _atom_ and _sublime_, so I'll show you everything based on these editors.
@@ -30,9 +30,9 @@ The Python interpreter ```python``` will read the script and follow the instruct
 
 What did we do? Let me introduce the three elements we've used:
 
-- {%highlight python %}print{%endhighlight%}: print is command, or a function. Giving a string as an input it will print out ( on the "standard output") that string
-- {%highlight python %}Hello World, I am finally writing Python{%endhighlight%}: This is the string given as an input to ```print```
-- {%highlight python%} python("Hello World, I am finally writing Python"){%endhighlight%}: this is the complete form of the instruction we are giving to the Python interpreter to be executed. Python will read the script from the top till the bottom.
+- ```print``` print is command, or a function. Giving a string as an input it will print out ( on the "standard output") that string
+- ```Hello World, I am finally writing Python```: This is the string given as an input to ```print```
+- ``` python("Hello World, I am finally writing Python")```: this is the complete form of the instruction we are giving to the Python interpreter to be executed. Python will read the script from the top till the bottom.
 
 Now, what it's useful is the possibility of associating a value to a variable. A variable is like a container and it can be filled ith everything we want (strings, characters, numbers, floating precision numbers, dictionaries...).
 Let's see what's going on if we adopt variables for printing:
@@ -49,5 +49,29 @@ print("%s %s %s %s" % (a,b,c,d))
 After saving the script as ```hellovariables.py```, we execute it in the prompt:
 Give the output
 
-In this script we have coupled ```print``` with four variables `a`,`b`,`c` and `d`
+In this script we have coupled ```print``` with four variables `a`,`b`,`c` and `d`. For each variable we want to print we need to tell ```print``` what `type` is that variable. So we have:
+- for **strings** : `%s`, as we have done before
+- for **integers**: `%d`, e.g. : 
+{% highlight python %}
+print("%d" % (10))
+print("%d" % (234556)))
+print("%d" % (1241))
+{% endhighlight %}
+- for **floating**: `%f`, e.g.:
+{% highlight python %}
+print("%f" % (1.23456778))
+{% endhighlight %}
+otherwise if we want a specific number of figures
+{% highlight %}
+print("%.4f" % (1.2345))
+print("%.8f" % (1.23456789))
+{% endhighlight %}
+
+>**What if** we type:
+{% highlight python %}
+print("%.4f" %(1.23))
+print("%.8f" % (1.2))
+{% endhighlight %}
+>So we give less figures than what expected by print?
+
 
