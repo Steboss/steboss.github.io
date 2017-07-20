@@ -16,7 +16,7 @@ Rather than downloading the latest Python release, it's better to download the P
 If you have a 64 bit laptop and you want the newest Python, so download **windows x86-64 executable installer**, otherwise for 32 bit computers **windows x86 executable installer**.
 
 Once the download has finished click on the installer and a windows like this will pop up:
-![PythonInstall1]({{site.url}}/assets/2017-07-20/output.jpg)
+![PythonInstall1]({{site.url}}/assets/2017-07-20/1.jpg)
 Click on **Customize Installation** and an __optional features__ window will appear :
 ![PythonInstall2]({{site.url}}/assets/2017-07-20/2.jpg)
 This should be totally fine or check the same options I have checked, and click on __next__ .
