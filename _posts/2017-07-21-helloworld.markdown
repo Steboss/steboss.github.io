@@ -87,7 +87,7 @@ print("%.8f" % (1.2))
 unknown = something
 print(unknown)
 {% endhighlight %}
-This script will print out the value unknow - any values unknown is!. That's fantastic, since we can always be aware and control the flow of our script. This is a feature which is not present in `C`, making `C` a harder language sometimes.
+>This script will print out the value unknow - any values unknown is!. That's fantastic, since we can always be aware and control the flow of our script. This is a feature which is not present in `C`, making `C` a harder language sometimes.
 
 All right, for the moment that's all :) Hope you enjoyed it :)
 
