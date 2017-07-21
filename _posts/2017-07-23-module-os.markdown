@@ -68,7 +68,7 @@ import os
 os.makedirs("test/directory/to/remove") 
 #now remove them
 os.removedirs("test/directory/to/remove")
-{% endhighlight}
+{% endhighlight %}
 
 Here we made use of:
 -`os.removedirs("test/directory/to/remove")`: with this command we can delete all the subdirectories we want. This is an extremelly important command. I remember when I was a guy playing with a camera software and getting crazy of finding a way to clean all the directories I used plenty of useless photos. By combining all the `os` elements we can have a very good friend to work with.
