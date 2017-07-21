@@ -11,7 +11,7 @@ At the moment I am running on a Ubuntu system, but I will test asap on Windows
 
 # OS module
 
-###Create a new directory
+### Create a new directory
 
 Let's write on a new file :
 {% highlight python %}
@@ -21,7 +21,7 @@ os.mkdir("my_directory")
 
 Save it as `directorymaker.py` and run in the prompt. If you see the script will create a new directory, called `my_directory`, in the current folder. The key command is `os.mkdir(DIRECTORY_NAME)` which invokes the function `mkdir` to create a director in the folder you are.
 
-###Change the current directory
+### Change the current directory
 
 Open a new file and type:
 {% highlight python %}
@@ -47,7 +47,7 @@ If you want to go to a specific folder you can give the `absolute path` of the f
 Thus if I want to go directly to the desktop from the folder `python`, I could type : `os.chdir("C:\Steboss\Myfolder\YourFolder\Desktop\")`
 -`new=os.chdir(os.pardir)` : what's interesting is that `os` can remember the starting working directory as `os.pardir` command show. Thus, giving this command we will be back to the original working directory.
 
-###Rename directories or files:
+### Rename directories or files:
 
 Another important features of `os` is renaming : 
 {% highlight python %}
@@ -59,7 +59,7 @@ In this script we are using:
 -`os.makedirs("rename_dirs")` : the `makedirs` function which allow us to create as many directories and subdirectories we want. For example, `os.makedirs("dir_1/dir_2/dir_3/dir_4")` will create `dir_1` along with all the sub-sub-sub directories `dir_2`,`dir_3` and `dir_4`. 
 -`os.rename("rename_dirs","delete_dirs")`: `rename` take as input a source, `src`, directory or file and the destination, `dst`, directory or file renaming `src` into `dst`. 
 
-###Directories and file removal
+### Directories and file removal
 
 Be careful. The following code is tested, but always check before using it. I don't want to remove any of your files:
 {% highlight python %}
@@ -74,7 +74,7 @@ Here we made use of:
 -`os.removedirs("test/directory/to/remove")`: with this command we can delete all the subdirectories we want. This is an extremelly important command. I remember when I was a guy playing with a camera software and getting crazy of finding a way to clean all the directories I used plenty of useless photos. By combining all the `os` elements we can have a very good friend to work with.
 
 
-###Working with files
+### Working with files
 
 We will see deeper the I/O file aspects very soon, but for the moment let's try to use `os` to deal with files `attributes`, namely the file properties
 {% highlight python %}
@@ -126,7 +126,7 @@ print(time.ctime(statistics.st_mtime))
 As you can see with `os` we can retrieved a big number of information from files. We can rename them, understand when they've been created and their size. Coupling `os` with `for` and `if` give us a potential tool for cleaning our computer, for example: delete all the file I have created in this folder on the 22nd July 2017.
 
 
-###Os to start a new Python script
+### Os to start a new Python script
 
 `os` can be used also to start a Python script in parallel to the one we are running :
 {% highlight python %}
@@ -149,7 +149,7 @@ print os.execvp(program,(program,) + tuple(arguments))
 
 ADD EXPLANATION
 
-###Os for running Windows programs
+### Os for running Windows programs
 
 Suppose you have a program "photo.exe" which take a pictures from your webcam. You can run it in Python via `os`:
 {% highlight pyhton %}
