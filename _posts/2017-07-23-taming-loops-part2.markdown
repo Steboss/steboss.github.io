@@ -111,3 +111,8 @@ Basically, Python has a way to recognize the inputs with sys based on this schem
 thus right after the script we will write the input argument. Finally `int` is a way to convert the number we have given into an integer. For example: `int(100)` returns `100` and `int(12.3)` return `12`. 
 
 - After the input is given we are going to play with it with some conditions
+
+All right :) 
+now we know really a lot and we can start to code a bit more. Let's try to deal with some [exercises][ifexercises] 
+
+[ifexecises]:ifexercises.html
