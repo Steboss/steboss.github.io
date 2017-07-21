@@ -30,6 +30,7 @@ categories: basic-python
  >- There must be at least 1 number between [0-9]
  >- There must be at least 1 lowercase [a-z] letter and 1 uppercase [A-Z]
  >- There must be 1 between these characters: [$ # @ - +]
+ 
  > If the password satisfies these criteria print out "Well done, your password has been accepted". Otherwise reject the password saying "I am sorry but your password does not match the criteria".
 
  >10) Write a Python program to print alphabet pattern 'A' with a lot of "*". Go to the editor
