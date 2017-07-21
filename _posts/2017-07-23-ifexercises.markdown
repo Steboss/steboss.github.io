@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Taming loops! - Part 1 - For Exercises"
-date:   2017-07-22 14:39:48 +0100
+title:  "Taming loops! - Part 1 - If Exercises"
+date:   2017-07-23 14:39:48 +0100
 categories: basic-python
 ---
 
