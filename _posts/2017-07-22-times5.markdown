@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Taming loops! - Part 1"
+date:   2017-07-22 14:39:48 +0100
+categories: basic-python
+---
+
+# Times 5 Exercise Answer
+
+{% highlight python %}
+for i in range(0,10):
+   product = 5*i
+   print("5 times %d equals %d" %(i,product))
+{% endhighlight %}
+
+

@@ -99,18 +99,26 @@ Today we have done a lot of things, trust me. So why don't we have a bit of exer
 >**[Answer][countdown]** If you want to see an answer just click :)  
 
 
+
 >**Question**: can you write a script that prints out the timestable of 5? In particular, it could be great if the script could print out "5 times 1 equals 5", "5 times 2 equals 10" and so on for each iteration.
 
->**[Answer][countdown]**
+>**[Answer][times5]** If you want to see an answer just click :)  
 
-**HARD EXERCISE**
->**Question**: Can you write a script which give as output the elements of a 3x3 matrix, whose elements are the multiplication of i ranging from 1 to 4 and j, ranging from 1 to 4? When printing out the results it could be great to see the elements as "1,2,3", so divided by a comma
+
+
+>**Question**: can you write a script that prints out all the timestables as in the Pythagorean tables?
+
+>**[Answer][timestables]** If you want to see an answer just click :)  
+
+
+
+>**Question**: Can you write a script which give as output the elements of a 3x3 matrix, whose elements are the multiplication of i ranging from 1 to 4 and j, ranging from 1 to 4? When printing out the results it could be great to see the elements as "1,2,3", so divided by a comma - hard exercise
 
 >**[Answer][matrixnested]** If you want to see an answer just click :)  
 
 
 
-## Little Pro
+### Little Pro
 If you want to see how fast are the loops just time them in this way. Open a new file in the editor and write:
 {% highlight python %}
 import time
@@ -123,4 +131,6 @@ print("Time for 100 values loop: %f" % (end - start))
 By modifying the range you can see how much time the loop requests. Usually for this kind of things `for` loops are extremelly fast, taking less than 1microsecond.
 
 [countdown]: countdown.html
+[times5]: times5.html
+[timestables]: timestables.html
 [matrixnested]: matrixnested.html

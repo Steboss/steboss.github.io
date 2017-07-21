@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Taming loops!"
+title:  "Taming loops! - Part 1"
 date:   2017-07-22 14:39:48 +0100
 categories: basic-python
 ---

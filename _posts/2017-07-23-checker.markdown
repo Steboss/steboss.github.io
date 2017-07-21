@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Taming loops! - Part 2"
+date:   2017-07-23 14:39:48 +0100
+categories: basic-python
+---
+
+# Create a check
+
+{% highlight python %}
+outline = "" # define an empty string
+counter = 0 # start a counter
+for i in range(0,1000):
+    if i%10 == 0:
+        outline+="\n" 
+    elif counter%2 == 0:
+        outline+="#"
+    else:
+        outline+=" "
+    counter+=1
+print(outline)
+{% endhighlight %}
