@@ -12,10 +12,11 @@ categories: basic-python
 >2) Write a Python script to convert from Celsius to Kelvin ( 0 C = 273.15 K)
 
 >3) Write a Python script to create a chessboard like this:
-"# # # # # # # # # #
-  # # # # # # # # # 
- # # # # # # # # #
-  # # # # # # # # #"
+
+># # # # # # # # # #
+>  # # # # # # # # # 
+> # # # # # # # # #
+># # # # # # # # # #
 
  >4) Write a Python script that prints out all the numbers from 0 to 1000 execpt the multiples of 3,4 and 5
 
@@ -39,22 +40,22 @@ categories: basic-python
  >10) Write a Python program to print alphabet pattern 'A'. Go to the editor
 >Expected Output:
 >
->  ***                                                                   
-> *   *                                                                  
-> *   *                                                                  
-> *****                                                                  
-> *   *                                                                  
-> *   *                                                                  
-> *   *
+>  \*\*\*                                                                   
+>\*   \*                                                                  
+>\*   \*                                                                  
+>\*\*\*\*\*                                                                  
+>\*   \*                                                                  
+>\*   \*                                                                  
+>\*   \*
 
 >11) Write a Python script to produce this pattern:
 >
->******      *******     *******       *
->*    *      *     *     *             *
->******      *     *     *******       * 
->*     *     *     *           *       *
->*      *    *     *           *       *
->********    *******     *******       *
+>\******      *******     *******       *
+>\*    *      *     *     *             *
+>\******      *     *     *******       * 
+>\*     *     *     *           *       *
+>\*      *    *     *           *       *
+>\********    *******     *******       *
 >If you didn't understand Bosi it's me...so do it well!
 >the expected pattern should be something similar to the one I typed above
 
