@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Taming loops! - Part 2"
+title:  "Taming loops! - Part 2 - Chessboard"
 date:   2017-07-23 14:39:48 +0100
 categories: basic-python
 ---
 
-# Create a check
+# Create a chessboard
 
 {% highlight python %}
 outline = "" # define an empty string
