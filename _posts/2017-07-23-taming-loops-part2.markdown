@@ -23,7 +23,7 @@ elif i > 5:
     print("%d is greater than 5" %i)
 else:
     print("%d is something else" % i)
-{% end highlight %}
+{% endhighlight %}
 
 save it as `ifclause.py` and run it. Obviously the output will be `8 is greater than 5`. Nothing special, but it's useful to analyze and learn what a `if clause` does and works:
 
@@ -96,7 +96,7 @@ elif n==1000:
     print("%d is equal to 1000" % number)
 else:
     print(" %d is definitely a number" % number)
-{%endhighlight%}
+{% endhighlight %}
 
 Save it as `if_input.py` and run in the prompt in this way:
 ADD A FIGURE
