@@ -115,4 +115,4 @@ thus right after the script we will write the input argument. Finally `int` is a
 All right :) 
 now we know really a lot and we can start to code a bit more. Let's try to deal with some [exercises][ifexercises] 
 
-[ifexecises]:ifexercises.html
+[ifexercises]:ifexercises.html
