@@ -11,12 +11,7 @@ categories: basic-python
 
 >2) Write a Python script to convert from Celsius to Kelvin ( 0 C = 273.15 K)
 
->3) Write a Python script to create a chessboard like this:
-
->\# \# \# \# \# \# \#
-> \# \# \# \# \# \# \#
->\# \# \# \# \# \# \#
-> \# \# \# \# \# \# \#
+>3) Write a Python script to create a chessboard pattern
 
  >4) Write a Python script that prints out all the numbers from 0 to 1000 execpt the multiples of 3,4 and 5
 
@@ -37,16 +32,7 @@ categories: basic-python
  >- There must be 1 between these characters: [$ # @ - +]
  > If the password satisfies these criteria print out "Well done, your password has been accepted". Otherwise reject the password saying "I am sorry but your password does not match the criteria".
 
- >10) Write a Python program to print alphabet pattern 'A'. Go to the editor
->Expected Output:
->
->  \*\*\*                                                                   
->\*     \*                                                                  
->\*     \*                                                                  
->\*\*\*\*                                                                  
->\*     \*                                                                  
->\*     \*                                                                  
->\*     \*
+ >10) Write a Python program to print alphabet pattern 'A' with a lot of "*". Go to the editor
 
 >11) Write a Python script to produce the pattern "BOSI"
 >If you didn't understand Bosi it's me...so do it well!
