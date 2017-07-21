@@ -133,7 +133,7 @@ As you can see with `os` we can retrieved a big number of information from files
 import os 
 
 os.system("python myprogram.py")
-{% endhighligth %}
+{% endhighlight %}
 
 `os.system(COMMAND)` deals with the prompt and launch the command we have written. **This is surely true for Unix based system** I need to verify if also for Windows. In this scirpt we are saying to `os` that we want to run a Python program called `myprogram.py`
 Alternatively in Windows you could try to run it in this way:
