@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Working with files - Read 5 lines"
+date:   2017-07-27 14:39:48 +0100
+categories: basic-python
+---
+
+# Read the last 5 lines
+
+
+**Answer**
+{% highlight python %}
+filename = sys.argv[1]
+ifile = open(filename,"r")
+lines = ifile.readlines()
+
+#retrieve somehow the max number of lines
+n_lines = len(lines)
+#start 5 lines before the en
+start = max_lines - 5 
+
+for i in range(start,n_lines)
+    print(lines[i],end="")
+
+{% endhighlight %}
+
+Another way to detect the maximum number of lines we have could be:
+{% highlight python %}
+counter =  0 
+for line in lines:
+    counter+=1
+{% endhighlight %}
+`counter` gives the maximum number of lines we have in the file
+
+
+
+

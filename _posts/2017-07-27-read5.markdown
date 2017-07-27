@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Working with files - Read 5 lines"
+date:   2017-07-27 14:39:48 +0100
+categories: basic-python
+---
+
+# Read the first 5 lines
+
+
+**Answer**
+{% highlight python %}
+filename = sys.argv[1]
+ifile = open(filename,"r")
+lines = ifile.readlines()
+
+#the max number of lines I want to read
+n_max = 5
+
+for i in range(0:n_max)
+    print(lines[i],end="")
+
+{% endhighlight %}
+
+
+
+
