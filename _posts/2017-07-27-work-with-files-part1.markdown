@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Working with Files!" -Part 1
+title:  "Working with Files!" - Part 1
 date:   2017-07-27 14:39:48 +0100
 categories: basic-python
 ---
