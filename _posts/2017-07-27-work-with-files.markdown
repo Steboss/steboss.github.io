@@ -40,12 +40,12 @@ Let's play a bit with the files:
 
 >**Question**: try to create a script which reads the first 5 lines of [this file][inptfile]
 
->**[Answer][read5]** If you want to see an answer just click :)  
+>**[Answer][readfirst]** If you want to see an answer just click :)  
 
 
 >**Question**: and now try to read the latest 5 lines of [this file][inptfile]
 
->**[Answer][readlast5]** If you want to see an answer just click :)
+>**[Answer][readlast]** If you want to see an answer just click :)
 
 
 >**Question**: and now can you create a script which prints out just an interval of lines? For example, I would like a script that can be run as: `python script.py ipt.dat 30 35` where `ipt.dat` is the [inputfile][inptfile] and `30 35` define the interval of lines I want.
@@ -60,6 +60,9 @@ Let's play a bit with the files:
 
 
 [opsys]: module-os.html
-[inptfile]: ../../../assets/2017-07-27/ipt.dat
+[inptfile]: ../../../../assets/2017-07-27/ipt.dat
 [readlines]: readlines.html
-[readlast5]: readlast5.html
+[readfirst]: read5.html
+[readlast]: readlast5.html
+[readinterval]:readinterval.html
+[readintervalreverse]:readintervalreverse.html
