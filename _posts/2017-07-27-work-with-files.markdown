@@ -54,6 +54,7 @@ Let's play a bit with the files:
 
 
 >**Question**: and finally, can be possible to repeat the previous exercises but printing the lines in reverse order? 
+
 >**[Answer][readintervalreverse]** If you want to see an answer just click :)
 
 
