@@ -44,9 +44,16 @@ Let's play a bit with the files:
 >**[Answer][readlast5]** If you want to see an answer just click :)
 
 >**Question**: and now can you create a script which prints out just an interval of lines? For example, I would like a script that can be run as: `python script.py ipt.dat 30 35` where `ipt.dat` is the [inputfile][inptfile] and `30 35` define the interval of lines I want.
+>**[Answer][readinterval]** If you want to see an answer just click :)
+
+
+>**Question**: and finally, can be possible to repeat the previous exercises but printing the lines in reverse order? 
+>**[Answer][readintervalreverse]** If you want to see an answer just click :)
+
+
 
 
 [opsys]: module-os.html
-[inptfile]:({{site.url}}/assets/2017-07-27/ipt.dat)
+[inptfile]: ../assets/2017-07-27/ipt.dat
 [readlines]: readlines.html
 [readlast5]: readlast5.html
