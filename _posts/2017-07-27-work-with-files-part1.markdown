@@ -10,7 +10,7 @@ All right guys, now that we saw how to deal with the [operative system][opsys] a
 Today we will learn how to read file and play with the `read` option
 
 
-# Files
+# Reading files
 
 Differently from C, working with files in Python is straight and painless:
 {% highlight python %}
