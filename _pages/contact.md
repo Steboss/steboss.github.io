@@ -1,9 +1,8 @@
 ---
 title: Contact
-author: Tao He
+author: Stefano Bosisio
 date: 2022-02-05
-category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+Any info on my email, i'll give it you in a sec

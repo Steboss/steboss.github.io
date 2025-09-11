@@ -1,9 +1,12 @@
 ---
 title: About
-author: Tao He
-date: 2022-02-04
-category: Jekyll
+author: Stefano Bosisio
+date: 2022-02-05
 layout: post
 ---
-
-This is an about page.
+ 
+Hello, I am Stefano! Many things about me, I swear I'll populate this page. 
+Todo: 
+- linkedin
+- flickr 
+- twitter
