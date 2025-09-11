@@ -1,15 +1,15 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Steboss' Thoughts 
+longtitle:        Steboss' Thoughts on Github PAges
+author:           Stefano Bosisio
+email:            stefanobosisio1@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  This is my personal blog where I share thoughts on various topics.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
+url:              'https://steboss.github.io'
 baseurl:          '/jekyll-gitbook'
 rss:              RSS
 
