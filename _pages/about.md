@@ -5,8 +5,5 @@ date: 2022-02-05
 layout: post
 ---
  
-Hello, I am Stefano! Many things about me, I swear I'll populate this page. 
-Todo: 
-- linkedin
-- flickr 
-- twitter
+Hello, I am Stefano! 
+This is my personal blog. Opinions, thoughts and posts are solely my own and do not express the views or opinions of my employers. 
